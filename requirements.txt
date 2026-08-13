@@ -1,0 +1,19 @@
+# FastAPI and server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# HTTP client for Ollama / Hugging Face API calls
+httpx>=0.26.0
+
+# HTML templates
+jinja2>=3.1.2
+
+# Optional: for loading .env (Hugging Face token, etc.)
+python-dotenv>=1.0.0
+
+# RAG: embeddings + PDF text extraction
+numpy>=1.24.0
+pypdf>=3.17.0
+
+# File uploads (multipart form data)
+python-multipart>=0.0.7
